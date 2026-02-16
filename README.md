@@ -7,43 +7,43 @@ A comprehensive web-based cooperative society management system built with Larav
 ![Laravel](https://img.shields.io/badge/Laravel-10.0-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🌟 Features
+##  Features
 
 ### Member Management
-- ✅ Online member registration with admin approval workflow
-- ✅ Unique auto-generated member IDs (MEMYYYYMMXXXXXX format)
-- ✅ Complete member profiles with personal and financial information
-- ✅ Membership status management (active, inactive, suspended, defaulting)
-- ✅ Credit score tracking and automatic updates
-- ✅ Member dashboard with personalized information
+- Online member registration with admin approval workflow
+- Unique auto-generated member IDs (MEMYYYYMMXXXXXX format)
+- Complete member profiles with personal and financial information
+- Membership status management (active, inactive, suspended, defaulting)
+- Credit score tracking and automatic updates
+- Member dashboard with personalized information
 
 ### Savings & Contributions
-- ✅ Multiple contribution types (monthly, voluntary, fixed, penalty, refund)
-- ✅ Flexible payment methods (cash, bank transfer, online, deduction)
-- ✅ Real-time wallet balance updates
-- ✅ Complete transaction history
-- ✅ Auto-generated receipts
-- ✅ Admin adjustment capabilities with audit logging
-- ✅ Monthly contribution tracking
+- Multiple contribution types (monthly, voluntary, fixed, penalty, refund)
+- Flexible payment methods (cash, bank transfer, online, deduction)
+- Real-time wallet balance updates
+- Complete transaction history
+- Auto-generated receipts
+- Admin adjustment capabilities with audit logging
+- Monthly contribution tracking
 
 ### Loan Management
-- ✅ Multi-level approval workflow (Secretary → Chairman → Treasurer)
-- ✅ Flexible interest calculation (flat, reducing, compound)
-- ✅ Automatic repayment schedule generation
-- ✅ Outstanding balance tracking
-- ✅ Loan status management throughout lifecycle
-- ✅ Payment reminders and overdue tracking
-- ✅ Savings deduction option for repayments
-- ✅ Guarantor tracking
+- Multi-level approval workflow (Secretary → Chairman → Treasurer)
+- Flexible interest calculation (flat, reducing, compound)
+- Automatic repayment schedule generation
+- Outstanding balance tracking
+- Loan status management throughout lifecycle
+- Payment reminders and overdue tracking
+- Savings deduction option for repayments
+- Guarantor tracking
 
 ### Admin Panel
-- ✅ Role-based access control with granular permissions
-- ✅ Super Admin, Chairman, Secretary, Treasurer, Member roles
-- ✅ Member approval workflow
-- ✅ Loan approval/rejection system
-- ✅ Savings management and corrections
-- ✅ Comprehensive dashboard with analytics
-- ✅ Activity logging for audit trails
+- Role-based access control with granular permissions
+- Super Admin, Chairman, Secretary, Treasurer, Member roles
+- Member approval workflow
+- Loan approval/rejection system
+- Savings management and corrections
+- Comprehensive dashboard with analytics
+- Activity logging for audit trails
 
 ### Accounting & Reports
 - ✅ Real-time financial summaries
@@ -55,50 +55,50 @@ A comprehensive web-based cooperative society management system built with Larav
 - ✅ Export capabilities (PDF/Excel ready)
 
 ### Notifications
-- ✅ In-app notification system
-- ✅ Email notifications (configurable)
-- ✅ SMS support (Twilio integration)
-- ✅ Loan approval/rejection alerts
-- ✅ Contribution confirmations
-- ✅ Repayment reminders
-- ✅ Meeting notices
+-  In-app notification system
+-  Email notifications (configurable)
+-  SMS support (Twilio integration)
+-  Loan approval/rejection alerts
+-  Contribution confirmations
+-  Repayment reminders
+-  Meeting notices
 
 ### Document Management
-- ✅ Document upload and storage
-- ✅ Multiple document types (constitution, minutes, agreements, etc.)
-- ✅ Public/private document access
-- ✅ Member ID generation
-- ✅ Download tracking
+-  Document upload and storage
+-  Multiple document types (constitution, minutes, agreements, etc.)
+-  Public/private document access
+-  Member ID generation
+-  Download tracking
 
 ### Meetings & Voting
-- ✅ Meeting creation and management
-- ✅ Attendance tracking
-- ✅ Online voting/polls
-- ✅ Multiple vote types (yes/no, multiple choice, open)
-- ✅ Real-time vote results
+- Meeting creation and management
+- Attendance tracking
+- Online voting/polls
+- Multiple vote types (yes/no, multiple choice, open)
+- Real-time vote results
 
 ### Smart Features
-- ✅ Loan default risk prediction
-- ✅ Automatic loan limit calculation based on history
-- ✅ Credit scoring algorithm
-- ✅ Spending pattern analytics
-- ✅ Inactive member flagging
+-  Loan default risk prediction
+-  Automatic loan limit calculation based on history
+-  Credit scoring algorithm
+-  Spending pattern analytics
+-  Inactive member flagging
 
 ### Security
-- ✅ Secure authentication with Laravel Sanctum
-- ✅ Encrypted passwords
-- ✅ Role-based authorization
-- ✅ Complete activity audit logs
-- ✅ Session protection
-- ✅ CSRF protection
+-  Secure authentication with Laravel Sanctum
+-  Encrypted passwords
+-  Role-based authorization
+-  Complete activity audit logs
+-  Session protection
+-  CSRF protection
 
 ### Mobile Friendly
-- ✅ Fully responsive design
-- ✅ TailwindCSS for modern styling
-- ✅ Touch-optimized interfaces
-- ✅ Mobile dashboard views
+-  Fully responsive design
+-  TailwindCSS for modern styling
+-  Touch-optimized interfaces
+-  Mobile dashboard views
 
-## 📊 System Architecture
+##  System Architecture
 
 ### Technology Stack
 
@@ -204,9 +204,9 @@ chmod -R 755 storage bootstrap/cache
 | Treasurer | treasurer@cooperative.com | treasurer123 |
 | Member | member4@cooperative.com | member123 |
 
-⚠️ **Important**: Change all default passwords immediately after installation!
+**Important**: Change all default passwords immediately after installation!
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 cooperative-society/
@@ -263,7 +263,7 @@ cooperative-society/
 
 See [docs/api-documentation.md](docs/api-documentation.md) for complete API documentation.
 
-## 👥 User Roles & Permissions
+##  User Roles & Permissions
 
 ### Super Admin
 - Full system access
@@ -294,7 +294,7 @@ See [docs/api-documentation.md](docs/api-documentation.md) for complete API docu
 - Apply for loans
 - View personal data
 
-## 🔒 Security Features
+##  Security Features
 
 - **Authentication**: Laravel Sanctum with token-based auth
 - **Authorization**: Role-based access control
@@ -305,7 +305,7 @@ See [docs/api-documentation.md](docs/api-documentation.md) for complete API docu
 - **Audit Logging**: Complete activity tracking
 - **Session Management**: Secure session handling
 
-## 📈 Reports & Analytics
+##  Reports & Analytics
 
 ### Available Reports
 - Financial Summary
@@ -335,14 +335,14 @@ php artisan test --testsuite=Feature
 php artisan test --coverage
 ```
 
-## 📝 Documentation
+##  Documentation
 
 - [Installation Guide](docs/installation-guide.md) - Complete setup instructions
 - [API Documentation](docs/api-documentation.md) - Full API reference
 - [Database Schema](database-schema.md) - Database structure
 - [Project Structure](project-structure.md) - File organization
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -352,22 +352,22 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Laravel Framework
 - TailwindCSS
 - Font Awesome
 - All contributors
 
-## 📞 Support
+##  Support
 
-For support, email support@cooperative.com or open an issue in the GitHub repository.
+For support, email olaleganiyanu1@gmail.com or open an issue in the GitHub repository.
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] Mobile App (React Native)
 - [ ] Advanced Analytics Dashboard
@@ -382,4 +382,4 @@ For support, email support@cooperative.com or open an issue in the GitHub reposi
 
 ---
 
-**Built with ❤️ for Cooperative Societies**
+**Built with ❤ for Cooperative Societies**
