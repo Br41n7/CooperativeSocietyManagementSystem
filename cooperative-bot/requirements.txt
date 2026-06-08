@@ -1,0 +1,13 @@
+python-telegram-bot
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+pandas
+SQLAlchemy
+python-dotenv
+beautifulsoup4
+emoji
+Flask
+psycopg2-binary
+reportlab
+matplotlib

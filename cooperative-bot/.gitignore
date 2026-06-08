@@ -1,0 +1,77 @@
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio and .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+out/
+build/
+dist/
+
+# Package manager folders
+node_modules/
+.pnpm-store/
+
+credentials.json
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Environment and secret files
+.env
+.env.*.local
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE/editor files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Database and archive files
+*.db
+*.sql
+*.sqlite
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Executables and binary artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.obj
+*.class
+*.apk
+*.app
+*.ipa
